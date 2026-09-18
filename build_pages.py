@@ -16,7 +16,7 @@ HEAD = """<!DOCTYPE html>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Caveat:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=13">
+  <link rel="stylesheet" href="../assets/css/style.css?v=14">
 </head>
 <body>
 """
@@ -118,7 +118,7 @@ FOOTER_MODALS = """
 
   <div class="modal" id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="bm-title">
     <div class="modal__card">
-      <img class="modal__berries" src="../assets/img/berries.png" alt="" aria-hidden="true">
+      <img class="modal__logo" src="../assets/img/logo.png" alt="Салон красоты «Янтарная Морошка»">
       <button class="modal__close" aria-label="Закрыть">✕</button>
       <h3 id="bm-title">Онлайн-запись</h3>
       <p class="modal__sub">Заполните форму — перезвоним и подтвердим визит в течение 10 минут</p>
@@ -184,7 +184,7 @@ FOOTER_MODALS = """
     </div>
   </div>
 
-  <script src="../assets/js/main.js?v=13"></script>
+  <script src="../assets/js/main.js?v=14"></script>
 </body>
 </html>
 """

@@ -487,7 +487,7 @@ h1, h2, h3, h4 {
   background: var(--cream-2); color: var(--sage); font-size: 19px; transition: .3s;
 }
 .modal__close:hover { background: var(--grad-amber); color: #4A2E00; transform: rotate(90deg); }
-.modal__berries { width: 74px; margin: -70px auto 6px; display: block; filter: drop-shadow(0 8px 14px rgba(60,70,41,.25)); }
+.modal__logo { height: 46px; width: auto; max-width: 200px; object-fit: contain; margin: 0 auto 10px; display: block; }
 .modal h3 { text-align: center; font-size: 24px; }
 .modal__sub { text-align: center; color: var(--sage-2); font-size: 14.5px; margin: -4px 0 24px; }
 .form { display: flex; flex-direction: column; gap: 14px; }
@@ -598,7 +598,7 @@ h1, h2, h3, h4 {
   .header { padding: 10px 0; }
   .ba { aspect-ratio: 4/3.4; }
   .modal__card { padding: 32px 22px 26px; }
-  .modal__berries { margin-top: -58px; }
+  .modal__logo { height: 40px; }
 }
 
 :where(section[id]) { scroll-margin-top: 92px; }
