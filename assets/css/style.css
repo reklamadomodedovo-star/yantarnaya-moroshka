@@ -640,3 +640,18 @@ body.menu-open .burger span::before, body.menu-open .burger span::after { backgr
 @media (max-width: 640px) {
   .masters__grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Карточки услуг: фото процедур вместо иконок ---------- */
+.service-card { padding: 20px 20px 28px; gap: 12px; }
+.service-card__img {
+  display: block; margin: 0 0 8px; border-radius: 20px; overflow: hidden;
+  aspect-ratio: 16/10.5; background: var(--sage-mist); position: relative;
+}
+.service-card__img img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+  transition: transform .5s ease;
+}
+.service-card:hover .service-card__img img { transform: scale(1.07); }
+.service-card h3, .service-card p, .service-card__price { padding: 0 6px; }
+.service-card__arrow { top: 30px; right: 30px; background: rgba(255,253,247,.85); backdrop-filter: blur(4px); border-color: transparent; }
